@@ -2,4 +2,10 @@
 <resources>
     <string name="hello">Hello World, HomeActivity!</string>
     <string name="app_name">Diaspora</string>
+    <string name="WebServiceURL">http://192.168.1.23:3000</string>
+    <string name="userAgent">Mozilla/5.0 (AndroidHttpClient) https://github.com/denschub/diaspora-android</string>
+    <string name="local_service_stopped">Diaspora web service has been stopped</string>
+    <string name="local_service_started">Diaspora communication service started</string>
+    <string name="auth_success">Authentication accepted</string>
+    <string name="auth_fail">Access Denied. Please try again.</string>
 </resources>

@@ -1,5 +1,6 @@
 package de.denschub.diaspora;
 
+import java.util.LinkedList;
 import java.util.List;
 
 import android.content.Context;
@@ -20,6 +21,7 @@ public class TimelineAdapter extends BaseAdapter {
 	
 	public List<StatusMessage> getMessages() {
 		// TODO: Insert magic function
+		return new LinkedList<StatusMessage>();
 	}
 		
 	@Override
@@ -40,6 +42,7 @@ public class TimelineAdapter extends BaseAdapter {
 	@Override
 	public View getView(int position, View convertView, ViewGroup parent) {
 		// TODO: Insert magic function
+		return null;
 	}
 
 }
